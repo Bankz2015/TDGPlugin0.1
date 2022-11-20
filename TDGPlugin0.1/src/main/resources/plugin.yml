@@ -1,0 +1,16 @@
+name: TDGPlugin0.1
+version: '${project.version}'
+main: me.spigot.command.Command
+api-version: 1.19
+description: TDGPlugin
+commands:
+  freeitem:
+    usage: /<commands>
+    description: TDG Freeitem
+    permission: TDGCommands.Ft
+    permission-message: "คุณไม่มีสิทธิ์ใช้คำสั่งนี้"
+  heal:
+    usage: /<commands>
+    description: TDG Heal
+    permission: TDGCommands.Heal
+    permission-message: "คุณไม่มีสิทธิ์ใช้คำสั่งนี้"
